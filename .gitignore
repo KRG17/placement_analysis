@@ -5,6 +5,8 @@ __pycache__/*
 .ipynb_checkpoints
 .ipynb_checkpoints/*
 
+*/model
+
 model_gpu.pkl
 model_cpu.pkl
 model_direct_cpu.pth
@@ -14,8 +16,14 @@ model_gpu
 try model
 try model/*
 
+model
 model_cpu
 model_cpu_len_gt_2
 model_cpu_no_len
 model_ngram_len_2
 model_ngram_no_len
+model_corr_ngram_no_len
+model_corr_ngram_len_2
+model_merged_ngram_len_2
+model_merged_ngram_no_len
+
